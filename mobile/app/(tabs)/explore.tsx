@@ -39,49 +39,35 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Meu cadastro e limites">
         <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+            Última atualização cadastral feita em 17/01/2025 {' '}
         </ThemedText>
       </Collapsible>
       <Collapsible title="Privacidade e segurança">
         <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
+          Central de privacidade <br></br>Biometria
+    
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
+        <ExternalLink href="https://www.nubank.com.br/transparencia/aviso-de-privacidade-e-seguranca">
+          <ThemedText type="link">Saiba mais</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Informe de rendimentos">
         <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText> to see how to load{' '}
-          <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
+          Veja no <ThemedText type="defaultSemiBold">YouTube</ThemedText> como verificar seu informe de rendimentos.{' '}
+          <ThemedText>
           </ThemedText>
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Autorizações">
-        <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
+        <ExternalLink href="https://www.bing.com/videos/riverview/relatedvideo?q=passo+a+passo+informe+de+rendimentos+nubank&mid=AADF2E8AE7C1E1647281AADF2E8AE7C1E1647281&FORM=VIRE">
+          <ThemedText type="link">Acessar vídeo</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Central de ajuda">
         <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
+          Fale conosco. {' '}
         </ThemedText>
+        <ExternalLink href="https://blog.nubank.com.br/como-entrar-em-contato-com-o-nubank/">
+          <ThemedText type="link">Entrar em contato.</ThemedText>
+        </ExternalLink>
         {Platform.select({
           ios: (
             <ThemedText>
