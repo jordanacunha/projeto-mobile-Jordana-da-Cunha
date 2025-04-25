@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   reactLogo: {
     height: 250,
-    width: 430,
+    width: 377,
     bottom: 0,
     left: 0,
     position: 'absolute',
