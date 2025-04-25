@@ -31,14 +31,22 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Início',
+<<<<<<< HEAD
           tabBarIcon: ({ color }) => <AntDesign name="home" size={24} color="black" />,
+=======
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+>>>>>>> 63151c7ea3ea07d20a8be443743ebe59ee2ea9fa
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
           title: 'Mais',
+<<<<<<< HEAD
           tabBarIcon: ({ color }) => <Feather name="more-horizontal" size={24} color="black" />,
+=======
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+>>>>>>> 63151c7ea3ea07d20a8be443743ebe59ee2ea9fa
         }}
       />
     </Tabs>

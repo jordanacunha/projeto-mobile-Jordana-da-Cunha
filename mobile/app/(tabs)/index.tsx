@@ -6,6 +6,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { blue } from 'react-native-reanimated/lib/typescript/Colors';
 
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -16,7 +17,7 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
-      <ThemedView style={styles.titleContainer}>
+      <ThemedView style={styles._titleContainer}>
         <ThemedText type="title">Bem-vinda, Jordana!</ThemedText>
         <HelloWave />
       </ThemedView>
@@ -81,11 +82,18 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
+  _titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
   },
+  get titleContainer() {
+    return this._titleContainer;
+  },
+  set titleContainer(value) {
+    this._titleContainer = value;
+  },
+  
   stepContainer: {
     gap: 8,
     marginBottom: 8,

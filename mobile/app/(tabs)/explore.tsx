@@ -6,6 +6,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import { styles } from './styles';
 
 export default function TabTwoScreen() {
   return (
@@ -13,10 +14,19 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
+<<<<<<< HEAD
           source={require('@/assets/images/nubank.webp')}
           style={styles.reactLogo}
         />
       }>
+=======
+                  source={require('@/assets/images/nubank.webp')}
+                  style={styles.reactLogo}
+                />
+         }>
+        
+
+>>>>>>> 63151c7ea3ea07d20a8be443743ebe59ee2ea9fa
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Mais informações</ThemedText>
       </ThemedView>
@@ -79,6 +89,7 @@ export default function TabTwoScreen() {
   );
 }
 
+<<<<<<< HEAD
 const styles = StyleSheet.create({
   headerImage: {
     color: '#808080',
@@ -98,3 +109,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
+=======
+
+>>>>>>> 63151c7ea3ea07d20a8be443743ebe59ee2ea9fa
