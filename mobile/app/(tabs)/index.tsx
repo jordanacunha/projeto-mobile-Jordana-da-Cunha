@@ -24,20 +24,20 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">R$ 500,00</ThemedText>
         <ThemedText style={styles.buttons}>
 
-          <Button
+          <Button color={'#9400D3'}
             onPress={() => {
               console.log('You tapped the button!');
             }}
             title="Cartões"
           />
-          <Button
+          <Button color={'#9400D3'}
             onPress={() => {
               console.log('You tapped the button!');
             }}
             title="Pix"
           />
 
-          <Button
+          <Button color={'#9400D3'}
             onPress={() => {
               console.log('You tapped the button!');
             }}
