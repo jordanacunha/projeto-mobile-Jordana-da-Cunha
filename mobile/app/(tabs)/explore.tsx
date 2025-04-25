@@ -13,9 +13,9 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
-            source={require('@/assets/images/nubank.webp')}
-            style={styles.reactLogo}
-         />
+          source={require('@/assets/images/nubank.webp')}
+          style={styles.reactLogo}
+        />
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Mais informações</ThemedText>
@@ -29,7 +29,7 @@ export default function TabTwoScreen() {
         </ThemedText>
         <ThemedText>
           Agência: <ThemedText type="defaultSemiBold">0001</ThemedText>{' '}
-          
+
         </ThemedText>
         <ExternalLink href="https://blog.nubank.com.br/codigo-agencia-nubank-numero-da-conta-onde-encontrar/">
           <ThemedText type="link">Saiba mais</ThemedText>
@@ -37,13 +37,13 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Meu cadastro e limites">
         <ThemedText>
-            Última atualização cadastral feita em 17/01/2025 {' '}
+          Última atualização cadastral feita em 17/01/2025 {' '}
         </ThemedText>
       </Collapsible>
       <Collapsible title="Privacidade e segurança">
         <ThemedText>
           Central de privacidade <br></br>Biometria
-    
+
         </ThemedText>
         <ExternalLink href="https://www.nubank.com.br/transparencia/aviso-de-privacidade-e-seguranca">
           <ThemedText type="link">Saiba mais</ThemedText>

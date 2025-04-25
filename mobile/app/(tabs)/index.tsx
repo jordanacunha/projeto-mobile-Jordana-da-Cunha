@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
-  buttons:{
+  buttons: {
     display: 'flex',
-    gap:10
+    gap: 10
   }
 });
